@@ -38,7 +38,7 @@ Ford GoBike System
 ## Summary of Findings:
 >  
    - The average trip is just under 600 sec, with 90% of trips being under 2000 sec. Looking at the histogram, most rides fall in between the 50 - 2000 sec range. This suggests riders are taking the bikes short distances.
-   - The 99% of the trips were less than 1 hour long with most of them fell between 5 to 15 minutes range.
+   - almost all trips were less than 1 hour long and the common durations were between 5 to 15 minutes.
    - Most riders were Subscriber and a few of them were Customer.
    - Most riders didn't use bike share and a few of them use it.
    
@@ -70,13 +70,13 @@ Ford GoBike System
        
 >       
    - The trip distribution over day hours peaks around two timeframes, 7am to 9am and 16pm to 18pm, during rush hours.
-   - it is quite obvious that the majority of rides happened on work days (Mon-Fri) and primary usage is probably for commuting
+   - it is obvious that the most of trips happened on work days from Mon to Fri and main usage is probably for commuting
    - All the rides happened in February because the data was collected only on that month
    - The higher percentage of customer rides longer trips then subscriber although number of subscriber riders are very high then customer.
    - The riding trips are much shorter on Monday through Friday compared to weekends. It indicates a pretty stable and efficient usage of the sharing system on normal work days, while more casual flexible use on weekends.
    - The trip distribution over day hours peaks around two timeframes, 2am to 3am and 13pm to 15pm.
    - The contrast between Customers and Subscribers. Customers have a relatively low usage of the bike share system with a small increase on the weekends. Subscribers are the opposite - there is steadily high usage on weekdays, with a sharp decline on the weekend
-   - There was much more subscriber usage than casual customers overall. The drop of volume on weekends for subscribers indicates that they primarily ride bikes for work commute during work days, whereas almost the opposite pattern of a slight increase of use for customers on weekends demonstrates that the use was more for leisure/touring and relaxing purposes.
+   - The number of subscribers usage are more than customers. There is a drop of volume on weekends for subscribers which indicates that they primarily ride bikes for work commute during work days, while almost the opposite pattern of a slight increase of use for customers on weekends demonstrates that the use was more for touring and relaxing purposes.
    - The Subsciber usually use bike for short time trip while Customer usually use it for long trip  and the common start time for Customer between 13 to 15.
    - Both the Subsciber and the Customer take the bikes in long trip on Saturday and Monday
-   - The different usage between the two type of riders. Subscribers use the system heavily on work days i.e. Monday through Friday whereas customers ride a lot on weekends, especially in the afternoon. Many trips concentrated around 8-9am and 17-18pm on work days for subscribers when used for work commute, yet customers tend to use more in the late afternoon around 17pm Monday to Friday. Other than usage purpose and habit, it may also have to do with the traffic situation around these rush hours in the area.
+   - The different usage between the two type of riders. First the Subscribers usualyy use the bikes on work days which is Monday through Friday second the customers use the bikes on weekends specially in the afternoon. alot of trips started at 8-9am and 17-18pm on work days for subscribers which show that they used it for work commute, while customers tend to use more in the late afternoon around 17pm Monday to Friday.
