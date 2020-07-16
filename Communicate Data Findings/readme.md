@@ -30,15 +30,10 @@ Ford GoBike System
 #### for analysis i did the following:
 > add new columns for trip duration in minute, trip start date in yyyy-mm-dd format, trip start hour of the day, day of week and month
 
-#### Project Workflow:
-> This project is divided into two major parts. In the first part, you will conduct an exploratory data analysis on a dataset Ford GoBike System Data. I used Python and data visualization libraries to explore the dataset’s variables and understand the data’s structure, oddities, patterns and relationships. The analysis in this part should be structured, going from simple univariate relationships up through multivariate relationships. 
-> In the second part, I took my main findings from my exploration and convey them to others through an explanatory analysis. To this end, I created a slide deck that leverages polished, explanatory visualizations to communicate my results.
-
-
 ## Summary of Findings:
 >  
-   - The average trip is just under 600 sec, with 90% of trips being under 2000 sec. Looking at the histogram, most rides fall in between the 50 - 2000 sec range. This suggests riders are taking the bikes short distances.
-   - almost all trips were less than 1 hour long and the common durations were between 5 to 15 minutes.
+   - The Disturbution of duration in sec showing that almost all trips were under 3000 sec and the most of trips took time from 500 sec to 1000 sec which indices that riders uses the system in short time trip
+   - The Disturbution of duration in min showing that almost all trips were under 1 hour which indices that riders uses the system in short time trip.
    - Most riders were Subscriber and a few of them were Customer.
    - Most riders didn't use bike share and a few of them use it.
    
@@ -69,8 +64,8 @@ Ford GoBike System
        - Steuart St at Market St 
        
 >       
-   - The trip distribution over day hours peaks around two timeframes, 7am to 9am and 16pm to 18pm, during rush hours.
-   - it is obvious that the most of trips happened on work days from Mon to Fri and main usage is probably for commuting
+   - The most used start time for clients were between 7 to 9 and 16 to 19 which mean that most of clients uses the bikes when they are going to the work or when they are back.
+   - There was drop in the use of system in weekend and large use in work days which emphasis that clients use bikes for commuting.
    - All the rides happened in February because the data was collected only on that month
    - The higher percentage of customer rides longer trips then subscriber although number of subscriber riders are very high then customer.
    - The riding trips are much shorter on Monday through Friday compared to weekends. It indicates a pretty stable and efficient usage of the sharing system on normal work days, while more casual flexible use on weekends.
@@ -79,4 +74,4 @@ Ford GoBike System
    - The number of subscribers usage are more than customers. There is a drop of volume on weekends for subscribers which indicates that they primarily ride bikes for work commute during work days, while almost the opposite pattern of a slight increase of use for customers on weekends demonstrates that the use was more for touring and relaxing purposes.
    - The Subsciber usually use bike for short time trip while Customer usually use it for long trip  and the common start time for Customer between 13 to 15.
    - Both the Subsciber and the Customer take the bikes in long trip on Saturday and Monday
-   - The different usage between the two type of riders. First the Subscribers usualyy use the bikes on work days which is Monday through Friday second the customers use the bikes on weekends specially in the afternoon. alot of trips started at 8-9am and 17-18pm on work days for subscribers which show that they used it for work commute, while customers tend to use more in the late afternoon around 17pm Monday to Friday.
+   
